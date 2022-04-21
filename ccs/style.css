@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata&display=swap');
+
+body {
+    background-color: rgb(247, 225, 197);
+}
+
+.heading {
+    text-align: center;
+}
+
+.title {
+    color: darkgreen; 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+
+.main {
+    border: 2px solid gray; 
+    width: 40%; 
+    margin: 0 auto;
+
+}
+
+.main div {
+    width: 200px; 
+    height: 200px; 
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#red {
+    border-color: crimson;
+}
+
+#blue {
+    border-color: darkcyan;
+}
+
+#yellow {
+    border-color: darkgoldenrod;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    color: forestgreen;
+}
